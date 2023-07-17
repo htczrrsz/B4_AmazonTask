@@ -1,4 +1,4 @@
-package com.krafttechnologie.utilities;
+package com.amazon.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -56,6 +56,7 @@ public class Driver {
                     if (!System.getProperty("os.name").toLowerCase().contains("mac"))
                         throw new WebDriverException("Your OS doesn't support Safari");
                     WebDriverManager.getInstance(SafariDriver.class).setup();
+//                    WebDriverManager.safaridriver().setup();
                     driver = new SafariDriver();
                     break;
             }

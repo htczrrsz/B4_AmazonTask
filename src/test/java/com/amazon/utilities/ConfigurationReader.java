@@ -1,6 +1,5 @@
-package com.krafttechnologie.utilities;
+package com.amazon.utilities;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
